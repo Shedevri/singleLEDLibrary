@@ -11,7 +11,7 @@ class sllib
 {
     public:
     //public variables and fucntions
-        sllib(int pin);
+        sllib(int pin, bool howOn);
 
         //breathing
         void breathSingle(int speed);
